@@ -9,7 +9,7 @@ export default class SideBar extends React.Component {
         <Content>
           <Image
             source={{
-              uri: "http://localhost:8081/images/icon-home.png"
+              uri: "http://localhost:8081/images/product-image-01.jpg"
             }}
             style={{
               height: 120,

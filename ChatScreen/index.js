@@ -28,14 +28,14 @@ export default (MainScreenNavigator = TabNavigator(
               active={props.navigationState.index === 1}
               onPress={() => props.navigation.navigate("JadeChat")}>
               <Icon name="briefcase" />
-              <Text>Nine</Text>
+              <Text>Jade</Text>
             </Button>
             <Button
               vertical
               active={props.navigationState.index === 2}
               onPress={() => props.navigation.navigate("NineChat")}>
               <Icon name="headset" />
-              <Text>Jade</Text>
+              <Text>Nine</Text>
             </Button>
           </FooterTab>
         </Footer>
